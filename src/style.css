@@ -101,13 +101,9 @@ strong {
 }
 
 .how-to-remember, .definition {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .how-to-remember-box, .definition-box {
@@ -155,5 +151,3 @@ strong {
   color: #333;
   font-weight: bold;
 }
-
-/*# sourceMappingURL=style.css.map */
